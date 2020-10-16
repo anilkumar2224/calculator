@@ -3,9 +3,10 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
+import javax.swing.border.Border;
 
 import java.util.*;
-
+import javax.swing.*;
 import javax.swing.JButton;
 import javax.swing.JEditorPane;
 
@@ -67,6 +68,7 @@ public class Main {
 	 */
 	private void initialize() {
 		
+		
 		Font font2=new Font("Tempus Sans ITC",Font.BOLD,13);
 		
 		frmAnilCalculator = new JFrame();
@@ -94,29 +96,7 @@ public class Main {
 					textField_2.setText(null);
 					textField_2.setFont(font2);
 					o=0;
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)1/u;
-					check=1;
 				}
-				else{num=num*10+1;
-				check=0;}
-				
-				
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-				else
-				{
-					q.removeLast();
-					q.add(num1);
-					a=1;
-				}*/
 				s.append("1");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -140,29 +120,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)2/u;
-					check=1;
 				}
-				else{num=num*10+2;
-				check=0;}
-				
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("2");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -186,28 +144,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)3/u;
-					check=1;
 				}
-				else{num=num*10+3;
-				check=0;}
-				
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("3");
 				
 				textPane.setText(s.toString());
@@ -231,28 +168,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)4/u;
-					check=1;
 				}
-				else{num=num*10+4;
-				check=0;}
-				s.append("4");
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("4");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -275,28 +191,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)5/u;
-					check=1;
 				}
-				else{num=num*10+5;
-				check=0;}
-				s.append("5");
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-				else
-				{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("5");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -319,28 +214,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)6/u;
-					check=1;
 				}
-				else {	num=num*10+6;
-				check=0;}
-				s.append("6");
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("6");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -365,28 +239,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)7/u;
-					check=1;
 				}
-				else{num=num*10+7;
-				check=0;}
-				
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-					
-					}*/
 				s.append("7");
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
@@ -410,30 +263,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)8/u;
-					check=1;
 				}
-				else {
-				num=num*10+8;
-				check=0;
-				}
-				
-				String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-				else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}*/
 				s.append("8");
 				
 				textPane.setText(s.toString());
@@ -457,31 +287,7 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)9/u;
-					check=1;
 				}
-					
-				else{
-					num=num*10+9;
-					check=0;
-				}
-				
-					String num1=Double.toString(num);
-					textField_2.setText(num1);
-					if(a==0) {
-						q.add(num1);
-						a=1;
-					}
-						else
-						{
-							q.removeLast();
-							q.add(num1);
-							a=1;
-						}*/
 				s.append("9");
 				
 				textPane.setText(s.toString());
@@ -505,32 +311,8 @@ public class Main {
 					textField_2.setText(null);
 					o=0;
 					textField_2.setFont(font2);
-				}/*
-				if(y==1)
-				{
-					u=u*10;
-					num=num+(double)(1/u-1/u);
-					check=1;
 				}
-				else {
-				num=num*10;
-				check=0;
-				}*/
 				s.append("0");
-				/*String num1=Double.toString(num);
-				textField_2.setText(num1);
-				if(a==0) {
-					q.add(num1);
-					a=1;
-				}
-					else
-					{
-						q.removeLast();
-						q.add(num1);
-						a=1;
-					}
-				*/
-				
 				textPane.setText(s.toString());
 				textField_2.setText(stringtonumber(s.toString()));
 				textField_2.setHorizontalAlignment(SwingConstants.RIGHT);
@@ -547,11 +329,7 @@ public class Main {
 		btnNewButton_10.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//num=0;
-				//a=0;
-				//y=0;
-			//	u=1;
-			   //  q.add("+");
+				
 				if(o==9) {
 					s.delete(0, s.length());
 					textField_2.setText(s.toString());
@@ -575,11 +353,7 @@ public class Main {
 		btnNewButton_11.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-			/*	num=0;
-				a=0;
-				y=0;
-				u=1;*/
-			   //  q.add("-");
+			
 				if(o==9) {
 					s.delete(0, s.length());
 					textField_2.setText(s.toString());
@@ -602,11 +376,6 @@ public class Main {
 		btnNewButton_12.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				/*num=0;
-				a=0;
-				y=0;
-				u=1;*/
-			  //   q.add("*");
 				if(o==9) {
 					s.delete(0, s.length());
 					textField_2.setText(s.toString());
@@ -629,11 +398,7 @@ public class Main {
 		btnNewButton_13.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				/*num=0;
-				a=0;
-				y=0;
-				u=1;*/
-			   //  q.add("/");
+				
 				if(o==9) {
 					s.delete(0, s.length());
 					textField_2.setText(s.toString());
@@ -660,8 +425,7 @@ public class Main {
 				textPane.setText(s.toString());
 				if(s.length()!=0)
 				sb.append(stringtonumber(s.toString()));
-				//y=0;
-				//u=1;
+				
 				textField_2.setText(sb.toString());
 				textField_2.setHorizontalAlignment(SwingConstants.RIGHT);
 				textField_2.setFont(font1);
@@ -685,7 +449,7 @@ public class Main {
 		btnNewButton_15.setBackground(Color.RED);
 		btnNewButton_15.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//q.clear();
+				
 				s.delete(0, s.length());
 				textPane.setText(s.toString());
 				textField_2.setText(s.toString());
@@ -706,131 +470,7 @@ public class Main {
 		btnNewButton_16.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				/*if(q.isEmpty())
-					return;
-				if(s.charAt(s.length()-1)=='.'&&s.charAt(s.length()-2)=='.' )
-				{
-					s.deleteCharAt(s.length()-1);
-					textPane.setText(s.toString());
-					textField_2.setText(s.toString());
-					return;
-				}
-			
 				
-				StringBuffer sb=new StringBuffer();
-				String lvda=(String) q.removeLast();
-				
-				if(lvda=="+"||lvda=="-"||lvda=="*"||lvda=="/")
-				{
-					u=1;
-					a=1;
-					y=0;
-					textField_2.setText(lvda);
-					s.deleteCharAt(s.length()-1);
-					textPane.setText(s.toString());
-				}
-				else
-				{  
-					double jj=Double.parseDouble(lvda);
-					if(jj%1==0 && check==0) {
-					long i=(long)jj;
-					sb.append(i);
-					textField_3.setText(sb.toString());
-					sb.deleteCharAt(sb.length()-1);
-					if(sb.length()!=0) {
-						String h1=sb.toString();
-						
-						q.add(h1);
-						
-						num=Double.parseDouble(h1);
-						a=1;
-					}
-					else
-					{
-						num=0;
-						a=0;
-					}
-					}
-					else {
-						
-					sb.append(jj);
-					textField_3.setText(sb.toString());
-					if(s.charAt(s.length()-1)=='.'&&s.charAt(s.length()-2)!='.' )
-		               {
-						String h1=sb.toString();
-						
-						q.add(h1);
-		                     	a=1;
-			                  u=1;
-			                   y=0;	
-			             
-		           }
-					else if(s.charAt(s.length()-1)=='0')
-					{
-						
-						 String h1=sb.toString();
-							
-							q.add(h1);
-							if(s.charAt(s.length()-2)=='.')
-							{
-								a=1;
-								u=1;
-								y=1;
-							}
-							else {
-						a=1; 
-						int d=sb.indexOf(".");
-						int n=sb.length();
-						u=1;
-						y=1;
-					for(int i=0;i<n-d-1;i++)
-					{
-						u=u*10;
-					}
-							}
-					}
-					else if(sb.charAt(sb.length()-1)!='.'&&sb.charAt(sb.length()-2)!='.')
-					{
-						sb.deleteCharAt(sb.length()-1);
-                        String h1=sb.toString();
-						
-						q.add(h1);
-						
-						num=Double.parseDouble(h1);
-						a=1; 
-						int d=sb.indexOf(".");
-						int n=sb.length();
-						u=1;
-						y=1;
-					for(int i=0;i<n-d-1;i++)
-					{
-						u=u*10;
-					}
-					}
-					else if(sb.charAt(sb.length()-1)!='.'&&sb.charAt(sb.length()-2)=='.') {
-						sb.deleteCharAt(sb.length()-1);
-                                  String h1=sb.substring(0,sb.length()-1);
-                                  
-						
-						q.add(h1);
-						
-						num=Double.parseDouble(h1);
-						a=1;
-						u=1;
-						y=1;		
-					}
-					
-					
-					}
-					/*try {
-						
-					}catch(NumberFormatException e1)
-					{
-						sb.append(lvda);
-					}*/
-					
-					
-					
 					if(o!=9)
 					{
 					
@@ -875,8 +515,7 @@ public class Main {
 		btnNewButton_17.setBorderPainted(false);
 		btnNewButton_17.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//y=1;
-				//u=1;
+				
 				if(o==9)
 				{
 					num=0;
